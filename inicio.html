@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Principal</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #bd1b1b, #033572);
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+    h1 {
+      color: #2d3436;
+    }
+    a {
+      margin-top: 20px;
+      text-decoration: none;
+      color: white;
+      background-color: #0984e3;
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+    a:hover {
+      background-color: #74b9ff;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="color: yellow;">¡Bienvenido!</h1>
+  <h1 style="color: yellow;"> seleccionar el tipo de sección del servicio que necesita: </h1>
+    <div class="botones">
+    <button onclick="window.location.href='salud.html'">Salud</button>
+    <button onclick="window.location.href='hogar.html'">Hogar</button>
+    <button onclick="window.location.href='educacion.html'">Educación</button>
+    <button onclick="window.location.href='trabajo.html'">Trabajo</button>
+   </div>
+</body>
+</html>
